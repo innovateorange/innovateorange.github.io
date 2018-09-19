@@ -1,0 +1,32 @@
+.formOne{
+  width: 500px;
+  padding: 30px;
+  background: #FFFFFF;
+  margin: 50px auto;
+}
+
+.formOne h2{
+  background: color:navy;
+  color: color:white;
+  font-size: 18px;
+  font-weight: 100;
+  padding: 20px;
+  margin: -30px -30px 30px -30px
+}
+
+.formOne input[type="text"];
+.formOne input[type="email"]
+{
+  box-sizing: border-box;
+  outline: none;
+  display: black;
+  width: 100%;
+  padding: 7px;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  background: transparent;
+  margin-bottom: 10px;
+  font: 16px Arial, Helvetica, sans-serif;
+  height: 45px;
+}
+</style>
