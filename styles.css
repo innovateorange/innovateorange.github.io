@@ -8,6 +8,7 @@
 .formOne h2{
   background: navy;
   color: white;
+  text-align: center;
   text-transform: uppercase;
   font-size: 18px;
   font-weight: 100;
@@ -31,5 +32,13 @@
   margin-bottom: 10px;
   font: 16px Arial, Helvetica, sans-serif;
   height: 45px;
+}
+.formOne input[type="buton"]
+{
+  background-color: orange;
+  display: inline-block;
+  cursor: grab;
+  font-size: 14px;
+  text-decoration: none;
 }
 </style>
