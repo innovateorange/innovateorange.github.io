@@ -16,12 +16,14 @@
 }
 
 .formOne input[type="text"],
-.formOne input[type="email"]
+.formOne input[type="email"],
+.formOne textarea,
+.formOne select
 {
   box-sizing: border-box;
   outline: none;
   display: block;
-  width: 500px;
+  width: 100%;
   padding: 7px;
   border: none;
   border-bottom: 1px solid #ddd;
