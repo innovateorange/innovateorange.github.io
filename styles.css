@@ -15,7 +15,7 @@
   margin: -30px -30px 30px -30px;
 }
 
-.formOne input[type="text"];
+.formOne input[type="text"],
 .formOne input[type="email"]
 {
   box-sizing: border-box;
