@@ -33,6 +33,7 @@
   font: 16px Arial, Helvetica, sans-serif;
   height: 45px;
 }
+
 .formOne input[type="buton"]
 {
   background-color: orange;
@@ -40,5 +41,29 @@
   cursor: grab;
   font-size: 14px;
   text-decoration: none;
+}
+
+.menuBar ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: orange;
+}
+
+.menuBar li{
+  float: left;
+}
+
+.menuBar li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px, 16px;
+  text-decoration: none;
+}
+
+.menuBar a:hover{
+  background-color: darkorange;
 }
 </style>
