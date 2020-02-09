@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+
+  <body>
+    {{ content }}
+
+    <hr>
+    <section class="footer">
+      <div class="container text-center">
+        {% for item in site.social %}
+          <a target="_blank" class="social_icon" href="{{ item.href }}">
+            <i class="{{ item.icon }}" aria-hidden="true"></i>
+          </a>
+          &nbsp;
+        {% endfor %}
+        <p>{{ site.org.year }} {{ site.org.name }}  <img src="{{ site.image.slice }}" alt="" width=2%></p>
+      </div>
+    </section>
+
+    <script src="{{ '/js/jquery-1.11.3.js' | prepend: site.baseurl | prepend: site.url }}"></script>
+
+    {% include analytics/google_analytics.html ga_id=site.tracking.google_analytics %}
+  </body>
+</html>
