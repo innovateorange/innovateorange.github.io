@@ -1,0 +1,158 @@
+# --------------
+# -- Settings --
+# --------------
+
+# Ignore this. This is only if you're hosting this in a sub-folder.
+# If you're using GitHub pages, they automatically override this with the right value.
+baseurl: ""
+
+# If you're using GitHub pages without a custom domain, this is "https://[github username].github.io"
+# If you're using GitHub pages with a custom domain, this is "http://[your domain]" (or https if you're using SSL)
+url: "https://innovateorange.github.io"
+
+# The ability to use custom themes.
+style:
+  theme: "original"
+
+# This will help you track who's visiting your website.
+tracking:
+  google_analytics: "UA-158098506-1"
+  # Old: "UA-117420687-1"
+  # MLH: "UA-43729070-14"
+
+# Let people connect & engage with you through social media.
+social:
+  twitter_handle: "CuseHacks"
+
+# This is Search Engine Optimization. It'll help your website look better on search.
+seo:
+  title:       "Innovate Orange Organizers"
+  description: "Interested in being a part of organizing CuseHacks at SU? Apply to become an organizer."
+  image:       "/images/logos/cusehacks_logo.png"
+
+# Org information.
+org:
+  name:  "Innovate Orange"
+  event: "CuseHacks"
+  year:  "2020"
+
+# Hero: Links
+hero:
+  apply: "https://forms.gle/e6b1th4NoMHsWyDy6"
+
+# Images
+image:
+  slice:   "/images/cusehacks_logo.png"
+  favicon: "/images/favicon.png"
+
+# About Information
+about: >
+  Would you like to be a part of CuseHacks 2021? Check out our positions below and apply! 
+  Application due Feb 28th by 2pm.
+
+
+# Positions
+positions:
+  - position: "Co-President"
+    details:
+      - bullet: Manages CampusLabs account (club information, events, and members)
+      - bullet: Leads the Registered Student Organization (RSO) re-application process
+      - bullet: Oversees the Logistics, Outreach, and Technology Heads
+      - bullet: Leads weekly organizer meetings
+      - bullet: Manages organization goals
+      - bullet: Leads MLH application process
+  - position: "Treasurer"
+    details:
+      - bullet: Drafts a budget at the beginning of hackathon planning
+      - bullet: Makes changes to the sponsorship packet as necessary
+      - bullet: Oversees the Sponsorship Heads
+      - bullet: Discusses sponsorship goals and budget with EECS department and Sponsorship Heads
+      - bullet: Collaborates with EECS department to make purchases for the club
+      - bullet: Ensures that money from sponsors is received
+      - bullet: Records any out-of-pocket expenses that organizers end up paying
+  - position: "Secretary"
+    details:
+      - bullet: Oversees the Communication and Marketing Heads
+      - bullet: Schedules and reserves rooms for weekly E-board and organizer meetings
+      - bullet: Schedules monthly meetings with advisors (EECS department advisors, RSO consultant)
+      - bullet: Prepares agendas for weekly organizer meetings in collaboration with the rest of the e-board
+      - bullet: Takes minutes at weekly E-board and organizer meetings
+      - bullet: Assists heads in scheduling and room reservation if needed
+  - position: "Logistics"
+    details:
+      - bullet: Secures a venue for CuseHacks
+      - bullet: Ensures that CuseHacks is compliant in Risk Management policies (DPS, Extra measures to accommodate minors)
+      - bullet: Secures food for CuseHacks (Communicating with Campus Catering, Working with the Sponsorship Heads to 
+                secure food sponsors)
+      - bullet: Organizes a detailed schedule (the run of show) for CuseHacks
+      - bullet: Schedules volunteer shifts during CuseHacks
+      - bullet: Books rooms for workshops and other functions during CuseHacks
+  - position: "Sponsorship"
+    details:
+      - bullet: Considers potential changes to the sponsorship package
+      - bullet: Contacts on-campus sources for potential sponsorship leads (ECS Career Services, Sarah Webber, Mark Coleman)
+      - bullet: Contacts previous sponsors
+      - bullet: Contacts new companies to see if they are interested in sponsoring
+      - bullet: Communicates with sponsors to gather and give necessary information
+  - position: "Technology"
+    details:
+      - bullet: Manages and makes updates to the CuseHacks website (cusehacks.github.io)
+      - bullet: Plans and schedules workshops as necessary (Pre-hackathon workshops, Creates a schedule/order for 
+                workshops during the event) 
+      - bullet: Obtains hardware and other supplies for hackers to check out during the hackathon
+      - bullet: Manages and updates the devpost (a site where participants can get information about the hackathon and submit their projects)
+      - bullet: Creates and manages the Slack for the hackathon
+      - bullet: Secures necessary equipment for the event, like microphones, power strips, extension cords, etc.
+      - bullet: Handles miscellaneous technological tasks
+  - position: "Communication"
+    details:
+      - bullet: Collaborates with clubs at SU about involvement in CuseHacks (Hosting workshops, Volunteering/Mentoring)
+      - bullet: Reaches out to clubs and offices at other colleges to raise awareness of CuseHacks
+      - bullet: Manages communications with hackers (Participant application, RSVPs, Details about the hackathon)
+      - bullet: Manages communications with volunteers and mentors (Volunteer/Mentor Application, Organizes a volunteer 
+          briefing session before CuseHacks)
+      - bullet: Manages communications with judges (Invites, Paperwork (MLH Code of Conduct, photo release, dietary restrictions), 
+                Communicates details about the judging procedure)
+  - position: "Outreach"
+    details:
+      - bullet: Organizes CuseHacks Jr. (an interactive way for middle school students to learn about electrical engineering 
+                and computer science through a sequence of educational workshops, followed by a viewing of the CuseHacks project exposition)
+      - bullet: Works with other organizations to aid with outreach initiatives; Some examples include the Westcott Community Center, 
+                Engineering Ambassadors, and Society of Hispanic Professional Engineers
+  - position: "Design"
+    details:
+      - bullet: Design fliers for CuseHacks, CuseHacks Jr, and other IO events
+      - bullet: Design/update logos for Innovate Orange, CuseHacks, and the yearly themed CuseHacks logo
+      - bullet: Design the CuseHacks hacker and volunteer shirts
+      - bullet: Works with the Tech leads to guide website design
+  - position: "Marketing"
+    details:
+      - bullet: Prints and posts fliers for events
+      - bullet: Manages CuseHacks’ social media presence (Instagram, Twitter, Other social media added in the future)
+      - bullet: Advertises CuseHacks using other advertising methods (Digital kiosks, Computer screensavers, ECS newsletter, 
+                Newsletters for other colleges, Contacting media outlets, Contacting professors to mention in class)
+
+    
+# Social media on footer
+social:
+  - icon: "fa fa-facebook fa-2x"
+    href: "https://www.facebook.com/CuseHacks/"
+  - icon: "fa fa-instagram fa-2x"
+    href: "https://www.instagram.com/cusehacks/"
+  - icon: "fa fa-twitter fa-2x"
+    href: "https://twitter.com/CuseHacks"
+
+
+# ----------------------------------------------------
+# -- Ignore this unless you know what you're doing. --
+# ----------------------------------------------------
+
+markdown: kramdown
+exclude:
+ - node_modules
+ - gulpfile.js
+ - Gemfile
+ - Gemfile.lock
+ - package.json
+ - README.md
+ - CNAME

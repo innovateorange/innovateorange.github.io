@@ -1,0 +1,129 @@
+body {
+  background-image: white;
+}
+
+section {
+  overflow-x:hidden;
+  color: black;
+}
+
+h1 {
+  font-size: 2.75vw;
+}
+
+h2 {
+  font-size: 2.55vw;
+  padding-bottom: 2%;
+}
+
+h3 {
+  font-size: 2.10vw;
+}
+
+p {
+  font-size: 1.5vw;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* 
+ * Hero Section
+ */
+
+nav {
+  font-size: 3.5vw;
+  padding: .5% 0;
+  color: rgb(238, 118, 5);
+}
+
+.navbar-nav {
+  flex-direction: row;
+}
+
+.hero a {
+  background: #fff;
+  border-radius: 30px;
+  color: black;
+  display: inline;
+  font-size: 1.75vw;
+  font-weight: 700;
+  padding: 1% 5%;
+  margin: 15px 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.hero a:hover,
+.hero a:focus {
+  background-color: black;
+  color: #fff;
+  transition: all 0.2s ease;
+}
+
+/* 
+ * About Section
+ */
+
+.about {
+  padding-top: 12%;
+  padding-bottom: 3%;
+}
+
+.about p {
+  padding-bottom: 5%;
+}
+
+/*
+ * Positions Section
+ */
+
+.positions {
+  padding-bottom: 5%;
+  position: relative;
+}
+
+.positions ul {
+  padding-bottom: 5%;
+}
+
+.positions li {
+  font-size: 1.5vw;
+  padding-top: 1.5%;
+}
+
+/*
+ * Footer Section
+ */
+
+.footer {
+  padding-top: 1%;
+  padding-bottom: 2%;
+}
+
+
+.footer img {
+  margin-bottom: 2px;
+}
+
+.footer a:hover {
+  text-decoration: none;
+}
+
+hr {
+  background-color: black;
+  height: 1px;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.social_icon {
+  color: rgb(238, 118, 5);
+}
+
+.fa-2x {
+  font-size: 2vw;
+}
