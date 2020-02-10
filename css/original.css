@@ -31,7 +31,7 @@ p {
 }
 
 h2, h3, li, p {
-  color: #474747;
+  color: #474747 !important;
 }
 
 /* 
@@ -42,7 +42,7 @@ nav {
   font-size: 3.5vw;
   padding: .5% 0;
   color: rgb(240, 116, 0);
-  background-color: #c9c9c9;
+  background-color: #c9c9c9 !important;
 }
 
 .navbar-nav {
@@ -56,7 +56,7 @@ nav {
 .hero a {
   background: #fff;
   border-radius: 30px;
-  color: #3b3b3b;
+  color: #3b3b3b !important;
   display: inline;
   font-size: 1.75vw;
   font-weight: 700;
