@@ -36,8 +36,8 @@ p {
 
 nav {
   font-size: 3.5vw;
-  padding: .5% 0;
   color: rgb(238, 118, 5);
+  padding: 2vw 0
 }
 
 .navbar-nav {
@@ -47,12 +47,13 @@ nav {
 .hero a {
   background: #fff;
   border-radius: 30px;
+  border: solid;
   color: black;
   display: inline;
-  font-size: 1.75vw;
+  font-size: 1.5vw;
   font-weight: 700;
-  padding: 1% 5%;
-  margin: 15px 15px;
+  padding: 0.5vw 1vw;
+  margin: 2vw 0;
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -69,18 +70,21 @@ nav {
  */
 
 .about {
-  padding-top: 12%;
-  padding-bottom: 3%;
+  padding: 3vw 0;
 }
 
 .about p {
-  padding-bottom: 5%;
+  padding-bottom: 1vw;
+}
+
+.about a {
+  color: rgb(238, 118, 5);
 }
 
 /*
  * Positions Section
  */
-
+/*
 .positions {
   padding-bottom: 5%;
   position: relative;
@@ -94,19 +98,18 @@ nav {
   font-size: 1.5vw;
   padding-top: 1.5%;
 }
-
+*/
 /*
  * Footer Section
  */
 
 .footer {
-  padding-top: 1%;
-  padding-bottom: 2%;
+  padding: 2vw 0;
 }
 
 
 .footer img {
-  margin-bottom: 2px;
+  margin-bottom: 0.5vw;
 }
 
 .footer a:hover {
@@ -116,8 +119,6 @@ nav {
 hr {
   background-color: black;
   height: 1px;
-  margin-top: 1%;
-  margin-bottom: 1%;
 }
 
 .social_icon {
