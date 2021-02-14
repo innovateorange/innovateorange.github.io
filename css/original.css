@@ -48,10 +48,6 @@ nav {
   flex-direction: row;
 }
 
-.hero h1 {
-  position: absolute;
-}
-
 .hero a {
   background: #fff;
   border-radius: 30px;
