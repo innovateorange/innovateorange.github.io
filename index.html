@@ -12,3 +12,21 @@ layout: default
     {{ site.about | markdownify }}
   </div>
 </section>
+
+<section class="positions">
+  <div class="container">
+    <div class="text-center">
+      <h2>Positions</h2>
+    </div>
+    {% for item in site.positions %}
+      <div class="text-center">
+        <h3>{{ item.position }}</h3>
+      </div>
+      <ul>
+      {% for bullet in item.details %}
+        <li>{{ bullet.bullet }}</li>
+      {% endfor %}
+      </ul>
+    {% endfor %}
+  </div>
+</section>
